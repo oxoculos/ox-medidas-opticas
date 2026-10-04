@@ -1,8 +1,8 @@
-const CACHE = 'ox-medidas-v11';
+const CACHE = 'ox-medidas-v11-1';
 const ASSETS = [
   './', './index.html', './manifest.json',
-  './assets/ox-logo-white-transparent.png', './assets/ox-logo-white-original.jpg',
-  './assets/icon-192.png', './assets/icon-512.png', './assets/apple-touch-icon.png'
+  './ox-logo-white-transparent.png', './ox-logo-white-original.jpg',
+  './icon-192.png', './icon-512.png', './apple-touch-icon.png'
 ];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
