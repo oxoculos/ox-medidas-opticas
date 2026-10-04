@@ -1,0 +1,3 @@
+Extraia e substitua os arquivos no repositório oxoculos/ox-medidas-opticas. A V12.1 corrige os caminhos dos assets, atualiza o Service Worker e adiciona calibração física por 2 pontos + DNP em mm. Abra depois: https://oxoculos.github.io/ox-medidas-opticas/?v=12.1
+
+A medição em mm exige uma dimensão física conhecida na mesma foto. A DNP é estimada e deve ser conferida antes da fabricação.

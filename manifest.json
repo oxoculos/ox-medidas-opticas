@@ -1,5 +1,5 @@
 {
-  "name": "OX Medidas Ópticas V12",
+  "name": "OX Medidas Ópticas V12.1",
   "short_name": "OX Ópticas",
   "description": "Medidas ópticas e gestão de atendimentos OX ÓCULOS.",
   "start_url": "./",
@@ -10,7 +10,17 @@
   "orientation": "portrait",
   "lang": "pt-BR",
   "icons": [
-    {"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
-    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }
